@@ -47,7 +47,7 @@ int main (int argc, char *argv[]) {
     else {
       wordMap[word].push_back(theWord);
       wordCount++;
-      if(lg_class < wordMap[word].size()) {   //keep track of the largest class and its size
+      if(lg_class < wordMap[word].size()) {  //keep track of the largest class and its size
         lg_class = wordMap[word].size();
         class_name = word;
       }
